@@ -1,33 +1,35 @@
 function mindGame(number) {
     if (typeof number !== 'number') {
-        return 'Please Enter Your Number';
+        return 'Please Provide Your Number';
     }
     return (number * 3 + 10) / 2 - 5
 }
-// console.log(mindGame(20))
+// console.log(mindGame('33'))
 
 //------------------------------22222-------------------//
 
 function evenOdd(name) {
     if (typeof name !== 'string') {
-        return 'Please Enter Your Text';
+        return 'Please Provide Your Text';
     }
+
     if (name.length % 2 === 0) {
-        return 'Even'
+        return 'even'
     }
     else {
-        return 'Odd'
+        return 'odd'
     }
 }
-// console.log(evenOdd('sani'))
+// console.log(evenOdd('chatgpt'))
 
 
 //-----------------------------3333-------------------//
 
 function isLGSeven(number) {
     if (typeof number !== 'number') {
-        return 'Please Enter Your Number';
+        return 'Please Provide Your Number';
     }
+
     const result = number - 7;
     if (result < 7) {
         return result;
@@ -37,13 +39,13 @@ function isLGSeven(number) {
     }
 }
 
-// console.log(isLGSeven(-15))
+// console.log(isLGSeven(6))
 
 //---------------------------44444--------------------------//
 
 function findingBadData(array) {
     if (Array.isArray(array) !== true) {
-        return 'Please Enter Your Array'
+        return 'Please Provide Your Array'
     }
     let negativeData = 0;
     for (let i = 0; i < array.length; i++) {
@@ -72,9 +74,9 @@ function gemsToDiamond(num1, num2, num3) {
         return totalDiamond
     }
     else {
-        return 'Please Enter Your Number'
+        return 'Please Provide Your Number'
     }
 
 }
-// console.log(gemsToDiamond(100, 5, 1))
+// console.log(gemsToDiamond(20, 200, 50))
 
