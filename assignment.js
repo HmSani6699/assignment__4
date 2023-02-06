@@ -5,18 +5,12 @@
 এখন তোমার task : তোমাকে সেই নাম্বার এর সাথে 3 গুন করে, তারপর 10 যোগ করে, তারপর 2 দিয়ে ভাগ করে, তারপর 5 বিয়োগ করে, যা আউটপুট আসবে তা return করতে হবে। Sample Input & Output:-
 */
 
-/*
- function mindGame(number) {
-    let first = number * 3;
-    let sum = first + 10;
-    let bag = sum / 2;
-    let byok = bag - 5;
-    return byok
 
-    // return (((number * 3) + 10) / 2) - 5
+function mindGame(number) {
+    return (number * 3 + 10) / 2 - 5
 }
-console.log(mindGame(-33)) 
-*/
+console.log(mindGame(-33))
+
 
 
 /* 
@@ -55,7 +49,17 @@ Problem 3: Is Less or Greater than seven
 */
 
 
+function isLGSeven(number) {
+    const result = number - 7;
+    if (result < 7) {
+        return result;
+    }
+    else {
+        return result * 2;
+    }
+}
 
+console.log(isLGSeven(15))
 
 
 //-------------------------------------------------------------------------//
@@ -95,3 +99,16 @@ Problem 5: Convert your gems into diamond
 [ gems এর ক্ষমতা বলতে একটা gems কে কয়টা diamond এ convert করা যাবে সেটা বুঝানো হচ্ছে। এখন তোমার task: সব বন্ধুর gems মিলিয়ে total কতটি diamond পাবে সেটা বের করতে হবে। total diamond এর সংখ্যা যদি 1000 এর দিগুন এর উপর হয়ে যায় সেক্ষেত্রে total diamond থেকে 2000 বাদ দিয়ে যতগুলো diamond অবশিষ্ট থাকবে, ততগুলো তোমরা পাবে।Sample Input & Output:-
 
 */
+
+function gemsToDiamond(num1, num2, num3) {
+    let firstFriends = num1 * 21;
+    let secindFriends = num2 * 32;
+    let thirdFriends = num3 * 43;
+
+    let totalDimont = firstFriends + secindFriends + thirdFriends;
+    if (totalDimont > 2000) {
+        return totalDimont - 2000
+    }
+    return totalDimont
+}
+// console.log(gemsToDiamond(100, 5, 1))
