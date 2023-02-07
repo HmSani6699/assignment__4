@@ -25,9 +25,6 @@ function evenOdd(name) {
     }
     return 'odd'
 }
-// console.log(evenOdd('chatgt'))
-
-
 //-----------------------------3333-------------------//
 
 /* 
