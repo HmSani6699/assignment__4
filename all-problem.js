@@ -25,7 +25,6 @@ function evenOdd(name) {
     }
     return 'odd'
 }
-//-----------------------------3333-------------------//
 
 /* 
 This function will take a number as input and subtract seven from that number, then if the subtraction is less than seven, then it will return the subtraction, and if it is greater than seven, it will return double the input.
@@ -40,9 +39,7 @@ function isLGSeven(number) {
         return result;
     }
     return number * 2;
-
 }
-// console.log(isLGSeven(6))
 
 //---------------------------44444--------------------------//
 
