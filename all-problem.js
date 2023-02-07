@@ -41,7 +41,6 @@ function isLGSeven(number) {
     return number * 2;
 }
 
-//---------------------------44444--------------------------//
 
 /* 
 This function will take an array as input then the number of bad data in the array
@@ -61,10 +60,7 @@ function findingBadData(array) {
     }
     return negativeData
 }
-// console.log(findingBadData([-4, -9, -5, 33, -55]))
 
-
-//-----------------------------5555----------------------------//
 
 /* 
 This function will take three parameters, parameter three must be a number, otherwise it will show an error, it will multiply each number by a specific number, then add the product together, if the sum is greater than 2000, subtract 2000 from the sum and return the minus, otherwise, the previous sum will return a tie.
