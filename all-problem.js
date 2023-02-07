@@ -80,5 +80,4 @@ function gemsToDiamond(num1, num2, num3) {
     }
     return totalDiamond
 }
-// console.log(gemsToDiamond(20, 200, 50))
 
